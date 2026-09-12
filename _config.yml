@@ -1,5 +1,39 @@
+# Site settings
 title: Robert J. Hansen
-description: Personal site of Robert J. Hansen
-theme: jekyll-theme-dinky
-
+description: Rob Hansen’s professional page
+url: "https://rjhansen.github.io"
+remote_theme: "mmistakes/minimal-mistakes"
+minimal_mistakes_skin: "default"
 markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - README.md
+plugins:
+  - jekyll-feed
+  - jekyll-include-cache
+  - jekyll-seo-tag
+  - jekyll-sitemap
+author:
+  name: "Robert J. Hansen"
+  email: "rob@hansen.engineering"
+  bio: "Black Hat USA and DEF CON speaker, co-inventor of language-theoretic security"
+  github: "rjhansen"
+  avatar: "/assets/images/rjh.png"
+footer:
+  links: []
+timezone: America/New_York
+lang: en-US
+encoding: UTF-8
+include:
+  - _pages
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: single
+      author_profile: true

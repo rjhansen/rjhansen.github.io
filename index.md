@@ -1,8 +1,9 @@
 ---
-layout: default
-title: Home
+layout: single
+title: "Robert J. Hansen"
+permalink: /
 ---
 
-# Robert J. Hansen
+Hello, world! This is my personal home page.
 
-Hello, world!
+Use the navigation above to find my [résumé](/resume/) and a bit [about me](/about/).

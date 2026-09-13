@@ -19,4 +19,3 @@ I maintain:
 * [Quickerhash](https://github.com/rjhansen/quickerhash), a crossplatform hashing tool meant specifically for educators and trainers
 * [Djinni](https://github.com/rjhansen/djinni), a header-only C++ library for simulated and compressed annealing
 * [rpass](https://rjhansen.github.io/rpass), a drop-in replacement for Ted Ts’o’s `pwgen` tool
-* [osslsigncode](https://github.com/rjhansen/osslsigncode), a Linux tool to put Authenticode signatures on Windows binaries
